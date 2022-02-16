@@ -134,6 +134,16 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 45%;
+  }
+}
 
 .wrapper {
   width: 1200px;
@@ -143,6 +153,12 @@ html {
   .wrapper {
     width: 100%;
     font-size: 50%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .wrapper {
+    width: 100%;
+    font-size: 40%;
   }
 }
 
@@ -222,6 +238,11 @@ html {
 @media screen and (max-width: 900px) {
   .portfolio {
     padding: 0 14rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .portfolio {
+    padding: 0 4rem;
   }
 }
 

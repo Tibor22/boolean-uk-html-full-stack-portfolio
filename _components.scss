@@ -1,0 +1,52 @@
+.span-underline__i {
+  text-decoration: underline;
+  font-style: italic;
+  text-decoration-color: $color-dark;
+}
+.span-dark__bold {
+  font-weight: 700;
+  color: $color-dark;
+}
+
+.three-column-grid {
+  display: grid;
+  grid-template-columns: repeat(3fr);
+  grid-auto-flow: column;
+  gap: 3rem;
+}
+
+.center {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.box {
+  max-width: 30rem;
+  border: 0.8rem solid $color-brown;
+  background-color: $color-white;
+  padding: 3rem;
+  @media screen and (max-width: 900px) {
+    max-width: 100%;
+  }
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  color: $color-white;
+  background-color: $color-brown;
+  padding: 0.5rem;
+  font-size: 2rem;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 1.2rem;
+}
+
+.github {
+  width: 100%;
+  text-align: center;
+  color: $color-brown;
+  font-size: 1.5rem;
+  display: block;
+}

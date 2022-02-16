@@ -1,0 +1,21 @@
+.portfolio {
+  padding: 0 8rem;
+  background-color: $color-blush;
+
+  &-cards {
+    padding-bottom: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3fr);
+    grid-auto-flow: column;
+    gap: 3rem;
+
+    @media screen and (max-width: 900px) {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, 1fr);
+      grid-auto-flow: row;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    padding: 0 14rem;
+  }
+}

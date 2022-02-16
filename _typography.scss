@@ -1,0 +1,39 @@
+.paragraph-black {
+  font-family: $font-montserrat;
+  font-size: 1.6rem;
+  color: $color-dark;
+  line-height: 3rem;
+  margin-bottom: 3rem;
+}
+.paragraph-white {
+  font-family: $font-montserrat;
+  font-size: 1.6rem;
+  color: $color-white;
+  line-height: 3rem;
+}
+
+.header-4 {
+  font-family: $font-montserrat;
+  font-size: 2rem;
+  color: $color-dark;
+  margin-bottom: 1.3rem;
+}
+.header-3 {
+  font-family: $font-montserrat;
+  font-size: 2.4rem;
+  color: black;
+  margin-bottom: 2rem;
+}
+.header-2 {
+  font-family: $font-montserrat;
+  font-size: 3rem;
+  color: $color-dark;
+  text-align: center;
+  margin: 3rem 0rem;
+}
+.header-1 {
+  font-family: $font-montserrat;
+  font-size: 7rem;
+  color: $color-white-transparent;
+  margin-bottom: 3rem;
+}

@@ -1,0 +1,8 @@
+.about-me-list {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+
+  li {
+    margin-left: 4.4rem;
+  }
+}

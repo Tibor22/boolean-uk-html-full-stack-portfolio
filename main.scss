@@ -1,8 +1,11 @@
+@import "variables";
 @import "components";
 @import "utilities";
 @import "typography";
+@import "base";
 @import "layout/header";
 @import "pages/home";
 @import "sections/about-me";
 @import "sections/experience";
 @import "sections/portfolio";
+@import "layout/footer";
